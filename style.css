@@ -1,0 +1,55 @@
+:root {
+    --montserrat: 'Montserrat', sans-serif;
+    --oswald: 'Oswald', sans-serif;
+    --brown: #A59678;
+    --gray: #6F737F;
+    --black: #2E323F;
+    --dark: #3B4050;
+}
+
+html{
+    font-family: var(--montserrat);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: var(--oswald);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.btn{
+    font-family: var(--oswald);
+    background-color: var(--brown);
+    padding: 0.15em 1em;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.nav{
+    background-color: var(--black);
+    font-family: var(--oswald);
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.nav-link-btn{
+}
